@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FruitNinja.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1c2b1d425651b584e98bddba232eb7d6
+  - enabled: 1
+    path: Assets/Scenes/Puntaje_Max.unity
+    guid: 2902aeeca07322d4f85668981553398e
   m_configObjects: {}
