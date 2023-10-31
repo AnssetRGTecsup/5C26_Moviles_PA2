@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FRUT NINJA
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c40144c5044cc8b40b7e82cf668165cb, type: 2}
   m_sharedMaterial: {fileID: -904944488023551635, guid: c40144c5044cc8b40b7e82cf668165cb, type: 2}
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 89.5
+  m_fontSize: 62.96
   m_fontSizeBase: 62.96
   m_fontWeight: 400
   m_enableAutoSizing: 1

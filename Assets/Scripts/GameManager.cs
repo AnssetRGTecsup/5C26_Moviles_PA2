@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
 
         score = 0;
         scoreText.text = score.ToString();
+        puntaje.puntaje = 0;
     }
 
     private void ClearScene()
