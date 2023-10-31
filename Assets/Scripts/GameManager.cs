@@ -6,7 +6,9 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI scoreText_2;
     public Image fadeImage;
+    public GameObject scoreScene;
 
     private Blade blade;
     private Spawner spawner;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
 
         score = 0;
         scoreText.text = score.ToString();
+        scoreText_2.text = score.ToString();
     }
 
     private void ClearScene()
@@ -85,7 +88,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(1f);
 
-        NewGame();
+        //NewGame();
 
         elapsed = 0f;
 
@@ -99,6 +102,8 @@ public class GameManager : MonoBehaviour
 
             yield return null;
         }
+
+        scoreScene.SetActive(true);
     }
 
 }
