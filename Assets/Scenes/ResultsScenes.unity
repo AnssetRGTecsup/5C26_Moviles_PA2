@@ -1516,7 +1516,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 242410519}
         m_TargetAssemblyTypeName: ButtonsManager, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
