@@ -370,7 +370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 118.3, y: -54.1}
+  m_AnchoredPosition: {x: 57, y: -54.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330694310
@@ -784,7 +784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 53.27964, y: -54.854088}
+  m_AnchoredPosition: {x: 148, y: -54.854088}
   m_SizeDelta: {x: 106.5593, y: 109.7083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635741748
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1634,6 +1634,7 @@ MonoBehaviour:
   scoreText: {fileID: 635741748}
   scoreText_2: {fileID: 1775437802}
   fadeImage: {fileID: 1744158372}
+  scoreScene: {fileID: 964715202}
 --- !u!1 &1454705783
 GameObject:
   m_ObjectHideFlags: 0
