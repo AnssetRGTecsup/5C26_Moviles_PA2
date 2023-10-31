@@ -21,19 +21,19 @@ public class Fruit : MonoBehaviour
         fruitCollider = GetComponent<Collider>();
         juiceEffect = GetComponentInChildren<ParticleSystem>();
 
-        SpriteRenderer ren = GetComponent<SpriteRenderer>();
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
 
         int aleatorio = Random.Range(0, 2);
 
         if (aleatorio == 0)
         {
-            ren.color = apple.colorFrut;
+            meshRenderer.material = apple.colorFrut;
             points = apple.points;
 
         }
         else if (aleatorio == 1)
         {
-            ren.color = kiwi.colorFrut;
+            meshRenderer.material = kiwi.colorFrut;
             points = kiwi.points;
         }
 
