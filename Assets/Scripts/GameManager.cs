@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private Blade blade;
     private Spawner spawner;
 
+    public Puntaje a;
     private int score;
 
     private void Awake()
@@ -56,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         score += points;
         scoreText.text = score.ToString();
+        a.Puntaje_acumulado = score;
     }
 
     public void Explode()
