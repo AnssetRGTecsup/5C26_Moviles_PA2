@@ -6,7 +6,7 @@ using TMPro;
 public class LLamarp : MonoBehaviour
 {
     public Puntaje XD;
-    public TextMeshPro Puntaje;
+    public TMP_Text Puntaje;
 
     private void Start()
     {
